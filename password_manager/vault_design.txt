@@ -1,6 +1,4 @@
 .vault/
-    one_hashed_vault_name_with_master_password.sccv -> empty
-    one_hashed_record_name_with_master_password.bin -> encrypted record data
-    one_hashed_salt_record_name_with_master_password.bin -> binary salt
-    encrypted_record_password_with_master_password_and_record_password.bin -> empty
-    second_hashed_vault_name_with_master_password.sccv -> empty
+    vault.sccv -> vault name and hash
+    one_salt.bin -> binary salt
+    password_record.bin -> encrypted password record
